@@ -6,7 +6,7 @@ import Badge from '../components/Badge'
 import Button from '../components/Button'
 import PageHero from '../components/PageHero'
 import Feature from '../components/Feature'
-import { VALUES, TEAM_ROLES, CONTACT_EMAIL, DISCLAIMER } from '../utils/constants'
+import { VALUES, CONTACT_EMAIL } from '../utils/constants'
 
 const About: React.FC = () => {
   useSEO({

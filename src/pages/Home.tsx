@@ -7,9 +7,7 @@ import Feature from '../components/Feature'
 import Container from '../components/Container'
 import Badge from '../components/Badge'
 import {
-  TAGLINES,
   KEY_BENEFITS,
-  HOW_IT_WORKS_STEPS,
   CONTACT_EMAIL,
 } from '../utils/constants'
 
