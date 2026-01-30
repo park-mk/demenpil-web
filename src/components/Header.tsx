@@ -26,18 +26,20 @@ const Header: React.FC = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-navy/95 backdrop-blur-md shadow-lg shadow-black/20' : 'bg-navy'
+        isScrolled ? 'bg-navy/95 backdrop-blur-md shadow-lg' : 'bg-navy'
       }`}
     >
       <Container>
         <nav className="flex items-center justify-between h-20" aria-label="Main navigation">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-mint to-mint/70 rounded-lg flex items-center justify-center shadow-lg shadow-mint/20 group-hover:shadow-mint/40 transition-shadow">
-              <span className="text-navy font-bold text-xl">D</span>
-            </div>
-            <span className="text-2xl font-display font-semibold text-pale group-hover:text-mint transition-colors">
-              Demenpil
+          <Link to="/" className="flex items-center gap-3 group">
+            <img 
+              src="/logo.png" 
+              alt="Demenpil" 
+              className="h-14 w-auto transition-opacity group-hover:opacity-80"
+            />
+            <span className="text-2xl font-display font-bold text-white group-hover:text-deep transition-colors">
+              DEMENPIL
             </span>
           </Link>
 
@@ -47,8 +49,8 @@ const Header: React.FC = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-mint ${
-                  location.pathname === item.path ? 'text-mint' : 'text-pale'
+                className={`text-sm font-medium transition-colors hover:text-deep ${
+                  location.pathname === item.path ? 'text-deep' : 'text-white'
                 }`}
               >
                 {item.label}
@@ -61,7 +63,7 @@ const Header: React.FC = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 text-pale hover:text-mint transition-colors focus:outline-none focus:ring-2 focus:ring-mint rounded-lg"
+            className="md:hidden p-2 text-white hover:text-deep transition-colors focus:outline-none focus:ring-2 focus:ring-deep rounded-lg"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
             aria-expanded={isMobileMenuOpen}
@@ -92,8 +94,8 @@ const Header: React.FC = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`text-base font-medium transition-colors hover:text-mint px-2 py-2 ${
-                    location.pathname === item.path ? 'text-mint' : 'text-pale'
+                  className={`text-base font-medium transition-colors hover:text-deep px-2 py-2 ${
+                    location.pathname === item.path ? 'text-deep' : 'text-white'
                   }`}
                 >
                   {item.label}

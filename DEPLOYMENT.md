@@ -9,7 +9,7 @@ Before deploying, ensure you have:
 - [ ] Replaced placeholder images in `/public`:
   - `og-image.png` (1200x630px for social media)
   - Optional: Add `mock-fundus.png` and `mock-heatmap.png` for Technology page
-- [ ] Updated contact email in `src/utils/constants.ts` (currently `hello@demenpil.com`)
+- [ ] Updated contact email in `src/utils/constants.ts` (currently `contact-us@demenpil.com`)
 - [ ] Reviewed and customized content in `src/utils/constants.ts`
 - [ ] Tested locally with `npm run dev` and `npm run build`
 - [ ] Verified all links work correctly
@@ -336,7 +336,7 @@ All major platforms (Cloudflare, Netlify, Vercel) support automatic deployment o
 
 ## 📞 Support
 
-For deployment issues, contact: hello@demenpil.com
+For deployment issues, contact: contact-us@demenpil.com
 
 ---
 

@@ -22,11 +22,11 @@ const Button: React.FC<ButtonProps> = ({
   className = '',
   type = 'button',
 }) => {
-  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-mint focus:ring-offset-2 focus:ring-offset-navy'
+  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-deep focus:ring-offset-2 focus:ring-offset-white'
   
   const variantClasses = {
-    primary: 'bg-mint text-navy hover:bg-mint/90 shadow-lg shadow-mint/20 hover:shadow-xl hover:shadow-mint/30',
-    ghost: 'bg-transparent border-2 border-slate text-pale hover:border-mint hover:text-mint',
+    primary: 'bg-deep text-white hover:bg-deep/90 shadow-lg shadow-deep/20 hover:shadow-xl hover:shadow-deep/30',
+    ghost: 'bg-transparent border-2 border-gray-300 text-navy hover:border-deep hover:text-deep',
   }
   
   const sizeClasses = {

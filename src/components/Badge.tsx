@@ -8,9 +8,9 @@ interface BadgeProps {
 
 const Badge: React.FC<BadgeProps> = ({ children, variant = 'default', className = '' }) => {
   const variantClasses = {
-    default: 'bg-deep text-pale border border-slate',
-    mint: 'bg-mint/10 text-mint border border-mint/30',
-    outline: 'bg-transparent text-pale border-2 border-slate',
+    default: 'bg-gray-100 text-navy border border-gray-300',
+    mint: 'bg-deep/10 text-deep border border-deep/30',
+    outline: 'bg-transparent text-navy border-2 border-gray-300',
   }
 
   return (

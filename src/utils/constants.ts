@@ -7,11 +7,11 @@ export const TAGLINES = {
   tertiary: 'Where Vision Meets Neurology — With Precision.',
 }
 
-export const CONTACT_EMAIL = 'hello@demenpil.com'
+export const CONTACT_EMAIL = 'contact-us@demenpil.com'
 
 export const DISCLAIMER = 'This site is for demonstration and informational purposes only and does not provide medical diagnosis.'
 
-export const FOOTER_DISCLAIMER = 'Not a medical device. For demonstration and informational purposes only.'
+export const FOOTER_DISCLAIMER = 'Seoul, Seongbuk-gu 12 Oepaesan-ro 3-gil BT-IT Center, 4F'
 
 export const NAVIGATION_ITEMS = [
   { label: 'Home', path: '/' },
@@ -21,8 +21,16 @@ export const NAVIGATION_ITEMS = [
 
 export const KEY_BENEFITS = [
   {
-    title: 'Non-Invasive & Low Cost',
+    title: 'Non-invasive',
     description: 'Standard fundus photography eliminates the need for expensive imaging modalities or invasive procedures.',
+  },
+  {
+    title: 'Low Cost',
+    description: 'Affordable screening solution compared to traditional diagnostic pathways like MRI or PET scans.',
+  },
+  {
+    title: 'Accessibility',
+    description: 'Available in primary care and ophthalmology clinics where fundus cameras are already deployed.',
   },
   {
     title: 'Minute-Scale Assessment',
@@ -33,16 +41,8 @@ export const KEY_BENEFITS = [
     description: 'Works with existing fundus imaging equipment already deployed in primary care and ophthalmology clinics.',
   },
   {
-    title: 'Cloud-Ready Workflow',
-    description: 'Conceptual architecture supports secure, scalable deployment for multi-site screening programs.',
-  },
-  {
-    title: 'XAI Heatmap Visualization',
-    description: 'Explainable AI overlay highlights regions of interest, fostering trust and clinical understanding.',
-  },
-  {
-    title: 'Complements Existing Modalities',
-    description: 'Designed as a screening aid to complement—not replace—established diagnostic pathways.',
+    title: 'Trustworthy AI',
+    description: 'Explainable AI with transparent outputs fostering trust and clinical understanding through interpretable results.',
   },
 ]
 
@@ -85,20 +85,20 @@ export const CORE_BIOMARKERS = [
 
 export const VALUES = [
   {
-    title: 'Clinical Credibility',
-    description: 'Grounded in peer-reviewed research and validated biomarkers.',
+    title: 'Stakeholder Symbiosis',
+    description: 'Designed for shared benefit—patient wellbeing, clinical utility, and systemic sustainability. No stakeholder\'s interest is sacrificed for another.',
   },
   {
-    title: 'Privacy by Design',
-    description: 'Data security and patient confidentiality at the core of our architecture.',
+    title: 'Privacy by Architecture',
+    description: 'Patient privacy is a design decision, not only a policy. Data security and confidentiality are embedded in every layer of our system.',
   },
   {
-    title: 'Explainability',
-    description: 'Transparent AI with interpretable outputs for clinical decision support.',
+    title: 'Trustworthiness over Performance',
+    description: 'Accuracy is a requirement. Trust is the goal. We prioritize transparency, explainability, and clinical interpretability over marginal performance gains.',
   },
   {
-    title: 'Partnership',
-    description: 'Collaborating with clinicians, researchers, and healthcare systems.',
+    title: 'Safety First, Always',
+    description: 'The safest path is often the most humane one. When faced with uncertain trade-offs, we choose clinical safety and human dignity over commercial ambition.',
   },
 ]
 

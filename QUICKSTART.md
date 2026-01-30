@@ -192,6 +192,6 @@ npm install
 
 ---
 
-**Questions?** Check README.md or contact: hello@demenpil.com
+**Questions?** Check README.md or contact: contact-us@demenpil.com
 
 Happy coding! 🎉

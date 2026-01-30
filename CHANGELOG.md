@@ -109,5 +109,5 @@ All notable changes to the Demenpil website will be documented in this file.
 ---
 
 **Maintained by:** Demenpil Team  
-**Contact:** hello@demenpil.com  
+**Contact:** contact-us@demenpil.com  
 **License:** © 2024 Demenpil. All rights reserved.

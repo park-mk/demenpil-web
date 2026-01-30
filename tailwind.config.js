@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy: '#0D1B2A',
-        deep: '#1B263B',
-        slate: '#415A77',
-        mint: '#78D6C6',
-        pale: '#E0E1DD',
+        navy: '#130e43',
+        deep: '#0792d5',
+        slate: '#64748b',
+        mint: '#0792d5',
+        pale: '#ffffff',
       },
       fontFamily: {
         display: ['Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],

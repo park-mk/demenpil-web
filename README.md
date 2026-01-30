@@ -175,7 +175,7 @@ The design system is defined in `tailwind.config.js`. To modify:
 
 ## 📧 Contact Form Integration
 
-Currently, the Contact button uses `mailto:hello@demenpil.com`. To add a proper form:
+Currently, the Contact button uses `mailto:contact-us@demenpil.com`. To add a proper form:
 
 ### Option 1: Formspree (recommended for static sites)
 ```tsx
@@ -293,7 +293,7 @@ For internal development:
 
 ## 📞 Support
 
-For questions or issues, contact: hello@demenpil.com
+For questions or issues, contact: contact-us@demenpil.com
 
 ---
 

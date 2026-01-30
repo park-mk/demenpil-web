@@ -11,12 +11,12 @@ const Feature: React.FC<FeatureProps> = ({ title, description, icon }) => {
   return (
     <Card hover>
       {icon && (
-        <div className="mb-4 text-mint">
+        <div className="mb-4 text-deep">
           {icon}
         </div>
       )}
-      <h3 className="text-xl font-semibold mb-3 text-pale">{title}</h3>
-      <p className="text-slate leading-relaxed">{description}</p>
+      <h3 className="text-xl font-semibold mb-3 text-navy">{title}</h3>
+      <p className="text-gray-600 leading-relaxed">{description}</p>
     </Card>
   )
 }
